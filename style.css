@@ -68,8 +68,7 @@ body{
 }
 
 .list-box:hover{
-  border: 1px solid goldenrod;
-  border-radius: 5px;
+  border-bottom: 1px solid goldenrod;
 }
 
 .list-box-logo{
@@ -323,5 +322,45 @@ body{
     left: 500px;
     opacity: 1;
   }
+}
+
+.text{
+  position: absolute;
+  top: 1250px;
+  left: 10%;
+}
+
+.article-box{
+  margin-bottom: 30px;
+}
+
+.photo-box{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ .article-image{
+    width: 500px;
+    height: 600px;
+}
+
+.text-box{
+  display: inline-block;
+  margin-left: 30px;
+  width: 60%;
+  vertical-align: middle;
+}
+
+.story-heading{
+  color: goldenrod;
+  font-family:'Indie Flower', cursive;
+  font-size: x-large;
+  padding-bottom: 15px;
+}
+
+.story{
+  color: rgb(255, 255, 113);
+  font-family:'Indie Flower', cursive;
+  font-size: larger;
 }
 
