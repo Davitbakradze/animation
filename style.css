@@ -62,9 +62,15 @@ body{
   height: 50px;
   width: 150px;
   margin-right: 10px;
+  transition: all;
+  transition-duration: 0.3s;
+  transition-delay: 0.2s;
 }
 
-
+.list-box:hover{
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+}
 
 .list-box-logo{
   display: inline-block;
@@ -89,6 +95,13 @@ body{
   color: aliceblue;
   vertical-align: middle;
   text-align: center;
+  transition: all;
+  transition-duration: 0.3s;
+  transition-delay: 0.2s;
+}
+
+.list-name:hover{
+  color: gold;
 }
 
 .letter-logo-box{
@@ -112,10 +125,17 @@ body{
   vertical-align: middle;
 }
 
-.letter-text-box::first-line{
+.letter-text{
   color: aliceblue;
   font-size: 20px;
   font-weight: 400;
+  transition: all;
+  transition-duration: 0.3s;
+  transition-delay: 0.2s;
+}
+
+.letter-text:hover{
+  color: goldenrod;
 }
 
 
